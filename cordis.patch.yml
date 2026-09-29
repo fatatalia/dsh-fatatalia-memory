@@ -1,0 +1,7 @@
+# dsh-fatatalia-memory bundle patch
+# 插入 host 插件行：自研记忆插件（SQLite FTS5 取代 Hindsight）。
+# 状态（2026-09-29）：Step 2 完成并验收通过 —— 事件订阅、6 个工具、全量落库、
+#   中文 FTS5 trigram 检索（最慢 44ms）全部工作。正文取自 session.log，见 index.js 头部注释。
+- insert:
+    - id: dsh-fatatalia-memory
+      name: dsh-fatatalia-memory
