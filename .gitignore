@@ -5,3 +5,8 @@ node_modules/
 *.db
 *.db-shm
 *.db-wal
+# ── 统一补全（2026-10-18）──
+.backup-*/
+*.orig
+*.tmp
+*.swp
